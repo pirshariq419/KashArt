@@ -1,0 +1,35 @@
+name: ecommerce_app
+description: A new Flutter project for an e-commerce app
+
+publish_to: 'none' # Remove this line if you intend to publish the app
+
+# The following defines the version and build number for your application.
+# The version number can be any value, but it is typically in the format:
+# <major>.<minor>.<patch>
+# For example: 1.2.0
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+
+  # Add other dependencies here
+  http: ^1.2.2
+     # Add this line for the http package
+  provider: ^6.0.1  # Add provider package for state management
+  # Add any other dependencies you need
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets like images, fonts, etc
