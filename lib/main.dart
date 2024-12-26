@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'KashArt',
       theme: ThemeData(
-        primarySwatch: Colors.orange,  // Custom theme color
+        primarySwatch: Colors.orange,  
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Consumer<AuthProvider>(
